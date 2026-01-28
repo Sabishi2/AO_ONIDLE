@@ -6,4 +6,4 @@ Ao Onidle is a DLE fan game based on Ao Oni
 
 noprops: https://mygames888.info/
 ## Svelte + Vite
-Implemented using <a href="svelte.dev">Svelte</a> framework, built using <a href="vite.dev">Vite</a>
+Implemented using <a href="https://svelte.dev/">Svelte</a> framework, built using <a href="https://vite.dev/">Vite</a>
