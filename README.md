@@ -1,3 +1,4 @@
+Currently undergoing migration, so there may be bugs
 # AO ONIDLE
 Play at: https://sabishi2.github.io/AO_ONIDLE/
 ## The Ao Oni Guessing Game
