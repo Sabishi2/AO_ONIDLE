@@ -6,6 +6,7 @@ import * as path from "path";
 
 export default defineConfig({
   plugins: [svelte()],
+  base: "/AO_ONIDLE/",
   resolve: {
     alias: {
       "@assets": path.resolve(__dirname, "src/assets"),
