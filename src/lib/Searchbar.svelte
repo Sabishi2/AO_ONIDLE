@@ -38,7 +38,7 @@
     };
 
     function getImageUrl(imageName) {
-        const urlPath = "https://Sabishi2.github.io/";
+        const urlPath = "https://Sabishi2.github.io/AO_ONIDLE/";
         let imageUrl;
 
         imageUrl = urlPath + imageName;
