@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'FelixTitle';
+  /*a name to be used later*/
+  src: url('assets/Felixti.TTF');
+  /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Felix';
+  src: url('assets/Felix.otf');
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -5,6 +17,7 @@ body {
   background-image: url("./assets/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Felix';
 }
 
 input {
@@ -13,6 +26,7 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  font-family: 'Felix';
 }
 
 input:focus {
@@ -68,15 +82,21 @@ h1 {
   margin-right: auto;
   width: 1440px;
   max-width: 100%;
+  max-height: 20%;
   height: auto;
 
   flex-direction: column;
 }
 
 #logo {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 40px;
   margin-bottom: 20px;
   max-width: 100%;
+  width: 560px;
+  align-items: center;
+  height: min-content;
 }
 
 #streak-container {

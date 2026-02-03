@@ -16,6 +16,7 @@
         disabled_var = true;
         container.classList.add("search-disabled");
         bar.classList.add("search-disabled");
+        bar.value = "";
     };
 
     let guessed_chars = cookie_guessed;
